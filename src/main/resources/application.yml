@@ -1,0 +1,47 @@
+server:
+  port: 8011
+  tomcat:
+    accesslog:
+      enabled: true
+
+data:
+  products:
+    -
+      id: p1
+      name: Coca Cola
+      price: 2.5
+    -
+      id: p2
+      name: Sprite
+      price: 2.5
+    -
+      id: p3
+      name: Fried chicken
+      price: 25
+    -
+      id: p4
+      name: Fries
+      price: 10
+    -
+      id: p5
+      name: Chicken burger
+      price: 15
+    -
+      id: p6
+      name: Beef burger
+      price: 20
+    -
+      id: p7
+      name: Beer
+      price: 5
+    -
+      id: p8
+      name: 大碗宽面
+      price: 10
+
+  promotions:
+    -
+      id: pt1
+      productId: p5
+      quanlity: 2
+      totalPrice: 25
