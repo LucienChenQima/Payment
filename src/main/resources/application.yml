@@ -43,5 +43,5 @@ data:
     -
       id: pt1
       productId: p5
-      quanlity: 2
+      quantity: 2
       totalPrice: 25
