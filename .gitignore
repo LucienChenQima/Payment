@@ -1,0 +1,8 @@
+# build direction
+/target
+
+# project settings
+/.settings
+.project
+.factorypath
+.classpath
