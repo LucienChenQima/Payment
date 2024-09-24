@@ -1,6 +1,6 @@
 ## Hello Candidate
 
-This project is a service for payment, it is mainly in charge of dealing the order from client, calculating the price and finally return bills to clients. Please help to complete the coding in this project according to the following
+This project is a payment service which is mainly in charge of dealing the order from client, calculating the price and finally return bills to clients. Please help to complete the coding in this project according to the following
 requirements within 45 minutes.
 
 ### Price Calculating

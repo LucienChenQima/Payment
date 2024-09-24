@@ -34,10 +34,6 @@ data:
       id: p7
       name: Beer
       price: 5
-    -
-      id: p8
-      name: 大碗宽面
-      price: 10
 
   promotions:
     -
