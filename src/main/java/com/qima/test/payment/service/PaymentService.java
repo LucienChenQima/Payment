@@ -18,10 +18,6 @@ public class PaymentService {
         return null;
     }
 
-    public List<Promotion> getAllPromotions() {
-        return client.getPromotions();
-    }
-
     public List<Product> getAllProducts() {
         return client.getProducts();
     }

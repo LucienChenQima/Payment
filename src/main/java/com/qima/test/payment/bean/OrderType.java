@@ -4,8 +4,7 @@ import lombok.Getter;
 
 public enum OrderType {
     ON_LINE("online"),
-    OFF_LINE("offline"),
-    INTERNAL("internal");
+    OFF_LINE("offline");
 
     @Getter
     private String name;
