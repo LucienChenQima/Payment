@@ -13,5 +13,4 @@ public class Order {
     private String clientName;
     private Long creatTime;
     private List<ChargeItem> chargeItems;
-    private String involvedPromotionId;
 }

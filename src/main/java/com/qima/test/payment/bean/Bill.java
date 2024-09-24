@@ -12,6 +12,5 @@ public class Bill {
     private String orderId;
     private String clientName;
     private List<ChargeItem> chargeItems;
-    private String involvedPromotionId;
     private BigDecimal totalPrice;
 }
