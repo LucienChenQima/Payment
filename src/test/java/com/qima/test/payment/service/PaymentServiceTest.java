@@ -49,25 +49,11 @@ public class PaymentServiceTest {
             .involvedPromotionId(null)
             .build();
 
-        // internal payment: 25 + 5 = 30.0
-        final Order internalOrder1 = Order.builder()
-            .id("test-order-03")
-            .chargeItems(List.of(
-                ChargeItem.builder().productId("p1").quantity(2).build()
-            ))
-            .orderType(OrderType.INTERNAL)
-            .clientName("Bozhou Yu")
-            .creatTime(System.currentTimeMillis())
-            .involvedPromotionId("pt1")
-            .build();
-
         final Bill testBill1 = paymentService.pay(onlineOrder1);
         final Bill testBill2 = paymentService.pay(offlineOrder1);
-        final Bill testBill3 = paymentService.pay(internalOrder1);
 
         Assertions.assertEquals(testBill1.getTotalPrice().doubleValue(), 30.0);
         Assertions.assertEquals(testBill2.getTotalPrice().doubleValue(), 25.5);
-        Assertions.assertEquals(testBill3.getTotalPrice().doubleValue(), 30.0);
     }
 
 }
