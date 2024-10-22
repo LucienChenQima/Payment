@@ -32,7 +32,6 @@ public class PaymentServiceTest {
             .orderType(OrderType.OFF_LINE)
             .clientName("Lucien Chen")
             .creatTime(System.currentTimeMillis())
-            .involvedPromotionId(null)
             .build();
 
         // online payment: (2 * 2.5 + 15 + 10) * 0.85 = 25.5
@@ -46,7 +45,6 @@ public class PaymentServiceTest {
             .orderType(OrderType.ON_LINE)
             .clientName("Lucien Chen")
             .creatTime(System.currentTimeMillis())
-            .involvedPromotionId(null)
             .build();
 
         final Bill testBill1 = paymentService.pay(onlineOrder1);
